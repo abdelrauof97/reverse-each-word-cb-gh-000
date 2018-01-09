@@ -6,7 +6,7 @@
   }
   new_string
 #end
-phrase = 
+phrase = "Hello there, and how are you?"
 def reverse_each_word(phrase)
   new_string = ""
   (phrase.split).collect { |x|
@@ -14,4 +14,4 @@ def reverse_each_word(phrase)
   }
   new_string
 end
-reverse_each_word()
+reverse_each_word(phrase)
