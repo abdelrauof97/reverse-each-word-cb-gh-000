@@ -12,4 +12,5 @@ def reverse_each_word(phrase)
   (phrase.split).collect { |x|
     new_string << "#{x.reverse} "
   }
+  new_string
 end
