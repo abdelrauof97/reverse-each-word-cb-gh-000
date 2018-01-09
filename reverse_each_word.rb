@@ -1,6 +1,6 @@
 def reverse_each_word(phrase)
   new_array = []
-  phrase.to_a
+  phrase.split
   phrase.each{
     new_array.push(x.revers)
   }
