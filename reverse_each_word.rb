@@ -6,4 +6,3 @@ def reverse_each_word(phrase)
   }
   new_string
 end
-puts reverse_each_word('"Hello there, and how are you?"')
