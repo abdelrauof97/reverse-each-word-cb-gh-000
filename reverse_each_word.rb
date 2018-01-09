@@ -8,8 +8,8 @@ def reverse_each_word(phrase)
 end
 
 def reverse_each_word(phrase)
-  
+  new_string = ""
   (phrase.split).collect { |x|
-    "x.reverse"
+    new_string << "#{x.reverse} "
   }
 end
