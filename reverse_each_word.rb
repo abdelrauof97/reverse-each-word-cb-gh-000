@@ -14,4 +14,4 @@ def reverse_each_word(phrase)
     "#{x.reverse} "
   }
 end
-reverse_each_word(phrase)
+puts reverse_each_word(phrase)
