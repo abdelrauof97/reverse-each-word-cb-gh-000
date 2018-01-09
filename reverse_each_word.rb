@@ -10,8 +10,7 @@ phrase = "Hello there, and how are you?"
 def reverse_each_word(phrase)
   new_string = ""
   (phrase.split).collect { |x|
-    new_string << "#{x.reverse} "
+    "#{x.reverse} "
   }
-  new_string
 end
 reverse_each_word(phrase)
