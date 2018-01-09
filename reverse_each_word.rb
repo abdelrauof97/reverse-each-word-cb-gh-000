@@ -4,5 +4,6 @@ def reverse_each_word(phrase)
   phrase.each{
     new_array.push(x.revers)
   }
-  puts new_array
+  new_array
 end
+reverse_each_word("Hello, ahmed")
