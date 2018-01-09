@@ -1,6 +1,6 @@
-def reverse_each_word(pharse)
+def reverse_each_word(phrase)
   new_array
-  pharase.each{
+  phrase.each{
     x.revers
   }
   new_array
