@@ -15,4 +15,4 @@ def reverse_each_word(phrase)
   }
   
 end
-reverse_each_word(phrase).join
+puts reverse_each_word(phrase).join
