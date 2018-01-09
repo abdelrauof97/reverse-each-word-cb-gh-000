@@ -7,8 +7,7 @@
   #new_string
 #end
 
-sentence1 = "Hello there, and how are you?"
-sentence2
+phrase = "Hello there, and how are you?"
 def reverse_each_word(phrase)
   phrase.split.collect { |x| "#{x.reverse} "}.join
 end
