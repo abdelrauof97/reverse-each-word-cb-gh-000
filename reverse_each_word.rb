@@ -8,7 +8,6 @@
 #end
 phrase = "Hello there, and how are you?"
 def reverse_each_word(phrase)
-
   new_array = phrase.split
   new_array.collect { |x|
     "#{x.reverse} "
