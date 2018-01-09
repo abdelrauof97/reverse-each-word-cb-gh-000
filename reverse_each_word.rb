@@ -3,4 +3,5 @@ def reverse_each_word(pharse)
   pharase.each{
     x.revers
   }
+  new_array
 end
