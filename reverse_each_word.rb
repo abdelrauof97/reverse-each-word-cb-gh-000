@@ -13,6 +13,5 @@ def reverse_each_word(phrase)
   new_array.collect { |x|
     "#{x.reverse} "
   }
-  new_array.join
 end
-puts reverse_each_word(phrase)
+puts reverse_each_word(phrase).join
